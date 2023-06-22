@@ -76,7 +76,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"cbad7d9461bfbc5a88fcdabf664a6937">
+		["MD5-CAM-1.0.1"] = <"cc8998eedc7a150fcc3e670d0e365f36">
 		["build_uid"] = <"d1711334-eae9-4ae7-ac53-4c946275fea0">
 		["revision"] = <"0.0.1-alpha">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
@@ -122,6 +122,11 @@ definition
 							at0005]    -- Dead
 						}
 					}
+				}
+			}
+			ELEMENT[at0019] occurrences matches {0..1} matches {    -- Ethnicity
+				value matches {
+					DV_TEXT matches {*}
 				}
 			}
 			ELEMENT[at0008] occurrences matches {0..1} matches {    -- Age
@@ -208,6 +213,10 @@ ontology
 					text = <"male-to-female transexual">
 					description = <"">
 				>
+				["at0019"] = <
+					text = <"Ethnicity">
+					description = <"">
+				>
 			>
 		>
 		["fi"] = <
@@ -270,6 +279,10 @@ ontology
 				>
 				["at0017"] = <
 					text = <"*male-to-female transexual (en)">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"*Ethnicity (en)">
 					description = <"">
 				>
 			>
@@ -336,6 +349,10 @@ ontology
 					text = <"*male-to-female transexual (en)">
 					description = <"">
 				>
+				["at0019"] = <
+					text = <"*Ethnicity (en)">
+					description = <"">
+				>
 			>
 		>
 		["de"] = <
@@ -398,6 +415,10 @@ ontology
 				>
 				["at0017"] = <
 					text = <"*male-to-female transexual (en)">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"*Ethnicity (en)">
 					description = <"">
 				>
 			>
@@ -464,6 +485,10 @@ ontology
 					text = <"*male-to-female transexual (en)">
 					description = <"">
 				>
+				["at0019"] = <
+					text = <"*Ethnicity (en)">
+					description = <"">
+				>
 			>
 		>
 	>
@@ -479,6 +504,7 @@ ontology
 				["at0005"] = <[SNOMED-CT::419099009]>
 				["at0008"] = <[SNOMED-CT::424144002]>
 				["at0014"] = <[SNOMED-CT::14679004]>
+				["at0019"] = <[SNOMED-CT::397731000]>
 			>
 		>
 	>
