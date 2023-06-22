@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "44.0.0",
+      "sem_ver" : "45.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "3837cba1f1f0f4ac3ea95657f4b5fbf0",
+      "MD5-CAM-1.0.1" : "2190e706ad6b177ebc642b5276e29e90",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -5876,7 +5876,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Request Referral",
+            "description" : "Example framework for modelling a template for a referral."
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
