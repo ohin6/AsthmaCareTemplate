@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e8aa25e429648e9cf9ba14fe57802751">
+		["MD5-CAM-1.0.1"] = <"7861840044e3b8b214571f0a5a7cf60b">
 		["build_uid"] = <"2a1ac9da-2c14-37a4-b0b3-c5a9790af299">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 	>
@@ -69,7 +69,7 @@ definition
 									}
 									allow_archetype CLUSTER[at0015] matches {    -- Frequency
 										include
-											archetype_id/value matches {/.*|openEHR-EHR-CLUSTER\.frequencycount\.v0/}
+											archetype_id/value matches {/openEHR-EHR-CLUSTER\.frequencycount\.v0/}
 									}
 								}
 							}
